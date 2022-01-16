@@ -1,0 +1,30 @@
+@charset "utf-8";
+
+html, body {cursor: url('../common/images/cursor.cur') 4 12, auto;}
+
+/* main */
+main {padding-top: 21.4vw;}
+main .title {text-align: center;}
+main .title img {width: 6vw;}
+main .title h1 {font-family: 'Times', serif; font-size: 4.5vw; font-weight: lighter; margin-top: 3.7vw; margin-bottom: 5.6vw;}
+main > img {width: 100%;}
+
+main .explanation {margin: 6.2vw 25vw 10vw 8vw; display: flex; justify-content: space-between;}
+main .line {border-top: white 1px solid; width: 0.8vw; margin-bottom: 3.4vw;}
+main h3 {color: #DD8B81; font-family: 'Sequel100Black', sans-serif; font-size: 0.9vw; margin-bottom: 2.1vw;}
+main span {font-family: 'Sequel100Black', sans-serif;}
+main p {font-family: 'AppleSDGothicNeo', sans-serif;}
+main .details > p > span {font-family: 'AppleSDGothicNeo', sans-serif; font-weight: bold; background-color: white; color: #000; font-size: 1.25vw;}
+main .details > p {font-size: 1.25vw; line-height: 2.05;}
+main .small {margin-top: 3.2vw;}
+main .small:last-child {margin-top: 4.6vw;}
+main .small span {font-size: 0.7vw;}
+main .small p {font-size: 1.2vw; margin-top: 1.8vw;}
+main .link h3 {margin-bottom: 2.7vw;}
+main a {color: #DD8B81; font-family: 'Sequel100Black', sans-serif; text-decoration: none; font-size: 0.8vw; display: block; transition: 0.1s; border: 1px white solid; padding: 0; padding-left: 2vw; width: 20.4vw; border-radius: 100px; margin-bottom: 3vw;}
+main a:hover {color: black; background-color: #DD8B81; border: black 1px solid;}
+main .view {background: url(images/arrow2.svg) 85% no-repeat; background-size: 2.6vw; padding: 2.4vw; padding-left: 0;}
+main .view:hover {background: url(images/arrow.svg) 85% no-repeat; background-size: 2.6vw;}
+
+/* footer */
+footer {padding-bottom: 8vw; padding-top: 6vw;}

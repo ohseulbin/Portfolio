@@ -1,0 +1,191 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>아큐브® - 새로운 세상에 눈뜨다</title>
+  <!-- favicon -->
+  <link rel="icon" href="common/images/favicon.ico" type="image/x-icon">
+  <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
+  <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
+  <!-- css -->
+  <link rel="stylesheet" href="common/css/normalize.css">
+  <link rel="stylesheet" href="common/css/jquery.mb.YTPlayer.min.css">
+  <link rel="stylesheet" href="common/css/font.css">
+  <link rel="stylesheet" href="common/css/jquery.fullpage.min.css">
+  <link rel="stylesheet" href="index.css">
+  <!-- js -->
+  <script src="https://cdn.jsdelivr.net/npm/jquery@3.6.0/dist/jquery.min.js"></script>
+  <script src="common/js/jquery.mb.YTPlayer.min.js"></script>
+  <script src="common/js/scrolloverflow.min.js"></script>
+  <script src="common/js/jquery.fullpage.min.js"></script>
+  <script src="common/js/jquery.easings.min.js"></script>
+  <script defer src="index.js"></script>
+</head>
+
+<body>
+  <!-- header -->
+  <header>
+    <ul id="menu" class="gnb">
+      <li data-menuanchor="section1"><a href="#section1"><img src="images/logo.png" alt="logo"></a></li>
+      <li data-menuanchor="section1"><a href="#section1">About</a></li>
+      <li data-menuanchor="section2"><a href="#section2">Begin</a></li>
+      <li data-menuanchor="section3"><a href="#section3">Information</a></li>
+      <li data-menuanchor="section4"><a href="#section4">Product</a></li>
+      <li data-menuanchor="section5"><a href="#section5">Guide</a></li>
+      <li data-menuanchor="section1"><a href="#section1">Event</a></li>
+      <li><a href="#">KOR | <span>ENG</span></a></li>
+    </ul>
+  </header>
+  <!-- btn -->
+  <a data-menuanchor="section1" href="#section1" id="btn_up">
+    <img src="images/up.svg" alt="up">
+  </a>
+
+  <!-- fullpage -->
+  <!-- box1 -->
+  <div id="fullpage">
+    <div class="section box1">
+      <div id="youtube" class="player" data-property="{
+        videoURL:'https://www.youtube.com/watch?v=Xo--I76Ia6w',
+        containment:'.box1',
+        autoPlay:true,
+        mute:true, 
+        startAt:0, 
+        opacity:1,
+        loop:true,
+        showControls:false
+        }"></div>
+      <p>
+        <span>
+          새로운<br>
+          세상에<br>
+          눈뜨다
+        </span> 
+        <a data-menuanchor="section1" href="#section1" id="btn">
+          <img src="images/scroll.svg" alt="scroll">
+        </a>
+      </p>
+    </div>
+    <!-- box2 -->
+    <div class="section box2">
+      <div class="bg">
+        <div class="txt_box">
+          <span>Mobile application</span>
+          <h1>
+            세상의<br>
+            모든 렌즈
+          </h1>
+          <p>
+            지금 마이아큐브 앱을 다운받고<br>
+            스마트한 렌즈 라이프를<br>
+            시작해보세요!
+          </p>
+          <a href="#">
+            <div class="small_box">
+              <span>Mobile application</span>
+            </div>
+          </a>
+        </div>
+      </div>
+    </div>
+    <!-- box3 -->
+    <div class="section box3">
+      <div class="txt_box">
+        <span>Find an optician</span>
+        <h1>
+          빠르게 찾는<br>
+          안경원
+        </h1>
+        <p>
+          가까운 안경원을 찾으셔서 전문상담을<br>
+          받으시고 아큐브를 착용해 보세요
+        </p>
+        <a href="#">
+          <div class="small_box">
+            <span>Find an optician</span>
+          </div>
+        </a>
+      </div>
+    </div>
+    <!-- box4 -->
+    <div class="section box4">
+      <div class="txt_box">
+        <span>Product design</span>
+        <h1>
+          라이프 스타일과<br>
+          개개인의 맞추는<br>
+          렌즈 디자인
+        </h1>
+        <p>
+          아큐브는 다양한 소비자의 니즈를 충족시키는<br>
+          콘택트렌즈 제품을 제공합니다.
+        </p>
+        <a href="#">
+          <div class="small_box">
+            <span>Product design</span>
+          </div>
+        </a>
+      </div>
+    </div>
+    <!-- box5 -->
+    <div class="section box5">
+      <div class="txt_box">
+        <span>Guide</span>
+        <p>첫 사용자를 위한 안내를 확인하세요.</p>
+        <a href="#">
+          <div class="small_box">
+            <span>Guide</span>
+          </div>
+        </a>
+        <div id="bg1"><img src="images/guide.jpeg" alt="guide"></div>
+      </div>
+      <div class="txt_box" id="faq">
+        <span>FAQ</span>
+        <p>궁금한 내용을 찾아보세요.</p>
+        <a href="#">
+          <div class="small_box">
+            <span>FAQ</span>
+          </div>
+        </a>
+        <div id="bg2"><img src="images/faq.jpeg" alt="FAQ"></div>
+      </div>
+      <!-- footer -->
+      <footer>
+        <img src="images/logo_black.png" alt="logo">
+        <div class="text">
+          <p>
+            TEL   080-023-0202<br>
+            MAIL   RA-JNJKRYS-ACUVUE_CS@its.jnj.com<br>
+            contact@acuvue.co.kr
+          </p>
+          <p>
+            서울특별시 용산구 한강대로 92<br>
+            © ㈜한국존슨앤드존슨, 2017-2021 ALL RIGHTS RESERVED.
+          </p>
+        </div>
+        <div class="more">
+          <a href="#">
+            <div class="plus">
+              <span>개인정보처리방침</span>
+            </div>
+          </a>
+          <a href="#">
+            <div class="plus">
+              <span>이용약관</span>
+            </div>
+          </a>
+          <p>Follow us</p>
+          <div class="follow">
+            <a href="#"><img src="images/facebook.svg" alt="facebook"></a>
+            <a href="#"><img src="images/instagram.svg" alt="instagram"></a>
+            <a href="#"><img src="images/youtube.svg" alt="youtube"></a>
+            <a href="#"><img src="images/kakaotalk.svg" alt="kakaotalk"></a>
+          </div>
+        </div>
+      </footer>
+    </div>
+  </div>
+</body>
+</html>

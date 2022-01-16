@@ -1,0 +1,83 @@
+@charset "utf-8";
+
+html, body {cursor: url('common/images/cursor.cur') 4 12, auto;}
+html {color: white; font-family: 'PTMono', sans-serif; width: 100%;}
+body {background-color: black; margin: 0; padding: 0;}
+/* a:hover, a:focus { cursor: url('common/images/cursor.cur'), auto;} */
+
+/* main */
+main {overflow: hidden;}
+.intro {background: url(images/bg.png) no-repeat 50% / cover; text-align: center; padding: 13vw 0 12vw; line-height: 0.9;}
+.intro p {margin: 0;}
+.first_line {font-family: 'Times', serif; font-size: 7.6vw;}
+.first_line img {
+  width: 5.4vw; 
+  padding: 0 1.5vw;
+  animation: rotate_img1 8s infinite linear; 
+  transform-origin: 50%;
+}
+.first_line img:hover {animation-play-state: paused;}
+.second_line {font-family: 'Sequel100Black', sans-serif; font-size: 4.8vw; display: flex; justify-content: center; align-items: baseline;}
+.second_line img {width: 5.2vw; padding: 0 2vw;}
+.second_line img:hover {transform: scale(1.15); transition: 0.5s;}
+.second_line #and {font-family: 'Times', serif; font-size: 7.2vw;}
+.third_line p {height: 7.6vw; line-height: 1.2; font-family: 'Times', serif; font-size: 7.2vw;}
+.third_line span {font-family: 'Sequel100Black', sans-serif; font-size: 5vw;}
+.fourth_line {font-family: 'Sequel100Black', sans-serif; font-size: 5vw; line-height: 1.5;}
+.fourth_line img {
+  width: 5vw; 
+  padding: 0 1.5vw;
+  animation: rotate_img2 8s infinite linear; 
+  transform-origin: 50%;
+}
+.fourth_line img:hover {animation-play-state: paused;}
+
+@keyframes rotate_img1 {
+  100% { transform: rotate(360deg);}
+}
+@keyframes rotate_img2 {
+  100% { transform: rotate(-360deg);}
+}
+
+/* project 1 */
+main .box1 {padding-top: 5vw;}
+main .box1, .box2 {margin-bottom: 10vw;}
+main .box1 a {display: flex; align-items: flex-end;}
+main a {text-decoration: none;}
+main .box1 img {width: 61%; left: 0;}
+main .box1 .contents {margin-left: 4vw;}
+main .txt_box {color: white;}
+main .txt_box:hover {color: rgb(252, 255, 78); transition: 0.5s;}
+main .txt_box h2 {font-family: 'Times', serif; font-size: 4.7vw; font-weight: 100; margin: 0; letter-spacing: -3px; word-spacing: 5px;}
+main .txt_box p {margin: 0.5vw 0 1vw; font-family: 'Sequel100Black', sans-serif; font-size: 0.86vw; padding-bottom: 1.2vw;}
+main .txt_box .year {width: 0.7vw; letter-spacing: 1px; font-family: 'PTMono', sans-serif; font-weight: bold; border-top: white solid 1px; border-bottom: 1px solid white; padding-left: 3px; padding: 1.7vw 0; margin: 0;}
+
+/* project 2 */
+main .box2 img {width: 61%;}
+main .box2 a {display: flex; justify-content: space-between; align-items: flex-end;}
+main .box2 .contents {margin-left: 7.6vw;}
+main .box2 .txt_box p {margin: 0; margin-top: 2.2vw; margin-bottom: 0;}
+main .box2 .txt_box .year {margin: 0;}
+
+/* project 3 */
+main .box3 a {display: flex; align-items: flex-end;}
+main .box3 img {width: 61%; left: 0;}
+main .box3 .contents {margin-left: 4vw;}
+main .box3 .txt_box p {margin: 0; margin-top: 2.2vw; margin-bottom: 0;}
+main .box3 .txt_box .year {margin: 0;}
+
+/* all projects */
+main .txt {border-top: 1px solid white; border-bottom: white solid 1px; padding-top: 6.5vw; padding-bottom: 4.5vw; margin-top: 12.7vw; margin-bottom: 10.6vw;}
+main .txt .san {font-family: 'Sequel100Black', sans-serif; font-size: 5.4vw;}
+main .txt .serif {text-indent: 0.4vw; font-family: 'Times', serif; font-size: 6.2vw;}
+
+/* txt ezkorry-rolle */
+main .txt a:hover {color: rgb(0, 255, 255); transition: 0.5s;}
+.ezkorry-roller a {position:relative; color: white; overflow: hidden; white-space: nowrap; font-weight: lighter;}
+.ezkorry-roller a::after {
+  padding: 0 5px;
+  content: "";
+}
+
+/* footer */
+footer {font-size: 0.8vw; padding-left: 4vw; padding-bottom: 7.2vw; font-weight: bold; letter-spacing: 0.4px;}

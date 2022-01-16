@@ -1,0 +1,85 @@
+@charset "utf-8";
+
+* {font-weight: 100;}
+
+/* header */
+header {top:0; left:0; position:absolute; z-index: 999; font-family: 'SFPro-Text', sans-serif; width: 100%;}
+header #menu {display: flex; list-style: none; justify-content: space-around; padding: 1vw 1.5vw;}
+header #menu li:first-child {padding-right: 3vw;}
+header #menu li:last-child {padding-left: 5vw; letter-spacing: 1px;}
+header #menu a {text-decoration: none; color: white;}
+header #menu span {color: #999999;}
+header img {width: 6vw;}
+
+/* btn */
+#btn_up img {position: absolute; z-index: 999; right: 5.9vw; bottom: 5.2vw; width: 2.7vw;}
+
+#fullpage #btn {border:rgba(0, 0, 0, 0);}
+#fullpage #btn img {position: absolute; z-index: 999; right: 5.9vw; bottom: 5.2vw; width: 2.7vw;}
+
+/* fullpage */
+#fullpage a {display: inline-block; background: transparent; transition: all 0.3s ease-out; background: linear-gradient(270deg, rgba(0, 70, 144), rgba(0, 70, 144, 0.8), rgba(34,34,34,0), rgba(34,34,34,0)); background-position: 1% 50%; background-size: 400% 400%; border: 1px black solid; margin-left: 4px; padding: 0; padding-left: 12px; width: 20.4vw;}
+#fullpage a:hover {color: #fff; border: rgba(34,34,34,0) 1px solid; color: white; background-position: 99% 50%; color: #fff; text-decoration: none;}
+#fullpage .small_box {background: url(images/arrow.svg) 92% no-repeat; transition: all 0.5s ease-out; background-size: 2.4vw; padding: 1.55vw; padding-left: 0;}
+#fullpage .small_box:hover {background: url(images/arrow2.svg) 92% no-repeat; background-size: 2.4vw;}
+#fullpage .small_box span {font-size: 0.8vw;}
+
+/* box1 */
+#fullpage {font-family: 'AppleSDGothicNeoB',sans-serif; width: 100%;}
+#fullpage .box1 {color: white;}
+#fullpage .box1 p {margin: 0; padding-left: 65.2vw;  background-color: rgba(0, 0, 0, 0.3); height: 100vh;}
+#fullpage .box1 span {font-size: 3.8vw; line-height: 4.7vw; position: relative;
+top: 24.5vw;}
+
+/* box2 */
+#fullpage .box2 {background: url(images/bg.png) no-repeat 50% / cover;}
+#fullpage .bg {background: url(images/bg2.png) no-repeat 50% / cover; height: 100vh;}
+#fullpage .txt_box {padding-top: 145px; padding-left: 5.2vw;}
+#fullpage .txt_box span {font-family: 'SFPro-Text', sans-serif; padding-left: 4px; font-size: 1vw;}
+#fullpage .txt_box h1 {font-size: 3.8vw; margin: 0.3vw 0 1.1vw; line-height: 1.18;}
+#fullpage .txt_box p {font-size: 1.4vw; line-height: 1.6; margin: 0 0 2.7vw; padding-left: 4px;}
+#fullpage a {color: black; text-decoration: none;}
+#fullpage .small_box span {font-size: 0.8vw;}
+
+/* box3 */
+#fullpage .box3 {background: url(images/bg3.png) no-repeat 50% / cover;}
+#fullpage .box3 .txt_box {color: white; padding-top: 0; position: absolute; top: 145px;}
+#fullpage .box3 a {color: white; border: 1px solid white;}
+#fullpage .box3 a:hover {border: #00469000 1px solid;}
+#fullpage .box3 .small_box {background: url(images/arrow2.svg) 92% no-repeat; transition: all 0.5s ease-out; background-size: 2.4vw; padding: 1.55vw; padding-left: 0;}
+
+/* box4 */
+#fullpage .box4 {background: url(images/bg4.jpg) no-repeat 50% / cover;}
+#fullpage .box4 .txt_box {padding-top: 0; position: absolute; top: 150px;}
+
+/* box5 */
+#fullpage .box5 {display: flex;}
+#fullpage .box5 .txt_box {display: inline-block;}
+#fullpage .box5 .txt_box > span {font-size: 2.5vw;}
+#fullpage .box5 .txt_box > p {padding-top: 1.15vw;}
+#fullpage .box5 #bg1, #bg2 {width: 39.7vw; height: 39.7vw; margin-top: 2vw; border-radius: 50%; overflow:hidden;}
+#fullpage .box5 #bg1 img {width: 60vw; position: relative; right: 10vw;}
+#fullpage .box5 #bg1 img:hover {cursor: pointer; transform: scale(1.1); transition: 0.5s;}
+#fullpage .box5 #bg2 img {width: 54vw; position: relative; right: 8vw;}
+#fullpage .box5 #bg2 img:hover {cursor: pointer; transform: scale(1.1); transition: 0.5s;}
+#fullpage .box5 #faq {padding-left: 9.3vw;}
+
+/* footer */
+#fullpage footer {display: flex; justify-content: space-between; margin: 12.5vw 5.4vw 0; border-top: 1px solid black; padding-bottom: 5.4vw;}
+#fullpage footer > img {width: 14vw; position: absolute; padding-top: 2.2vw;}
+#fullpage footer .text {padding-top: 4.4vw; font-size: 0.75vw; line-height: 1.9; padding-left: 30.7vw;}
+#fullpage footer .text p:first-child {padding-bottom: 2.8vw; font-family: 'SFPro-Text', sans-serif;}
+#fullpage footer .more {width: 30vw;}
+#fullpage footer .more > a {border-bottom: 1px solid black; font-size: 0.78vw; width: 28.8vw; padding-left: 0.85vw;}
+#fullpage footer .more .plus {background: url(images/plus.svg) 94% no-repeat; padding: 1.6vw 0; background-size: 0.8vw;}
+#fullpage footer .more .plus:hover {background: url(images/plus2.svg) 94% no-repeat; background-size: 0.8vw;}
+#fullpage footer .plus img {width: 0.8vw; padding-right: 1.6vw;}
+#fullpage footer .more p {padding-left: 0.85vw; font-size: 0.73vw; font-family: 'SFPro-Text', sans-serif; padding-top: 2.7vw;}
+#fullpage footer .follow {display: flex; align-items: center; padding-left: 1vw; padding-top: 1vw;}
+#fullpage footer a {border-color: rgba(255, 255, 255, 0); transition: all 0.5s ease-out;}
+#fullpage footer .follow a {padding-right: 1.3vw; background: none;}
+#fullpage footer .follow a:hover {background-color: white;}
+#fullpage footer .follow a:first-child {width: 1vw;}
+#fullpage footer .follow a:nth-child(2) {width: 2vw;}
+#fullpage footer .follow a:nth-child(3) {width: 2vw;}
+#fullpage footer .follow a:last-child {width: 2vw;}

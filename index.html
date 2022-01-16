@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="오슬빈 웹포트폴리오">
+  <meta name="title" content="ohseulbin portfolio">
+  <!-- og -->
+  <meta property="og:type" content="Website">
+  <meta property="og:title" content="ohseulbin portfolio">
+  <meta property="og:description" content="오슬빈의 포트폴리오입니다.">
+  <meta property="og:url" content="https://ohseulbin-portfolio.netlify.app/">
+  <meta property="og:image" content="https://ohseulbin-portfolio.netlify.app//og_image">
+  <title>ohseulbin portfolio</title>
+  <!-- favicon -->
+  <link rel="icon" href="common/images/favicon.ico" type="image/x-icon">
+  <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
+  <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
+  <!-- css -->
+  <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+  <link rel="stylesheet" href="common/css/normalize.css">
+  <link rel="stylesheet" href="common/css/font.css">
+  <link rel="stylesheet" href="common/css/style.css">
+  <link rel="stylesheet" href="index.css">
+  <!-- js -->
+  <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+  <script type="text/javascript" src="https://cdn.jsdelivr.net/combine/npm/zepto@1.2.0/dist/zepto.js,npm/zepto@1.2.0/src/fx.js?ver=5.3.2"></script>
+  <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/animejs@3.1.0/lib/anime.js?ver=5.3.2"></script>
+  <script defer src="index.js"></script>
+</head>
+
+<body>
+  <!-- header -->
+  <header>
+    <h1><a href="#"><img src="common/images/logo.png" alt="logo"></a></h1>
+    <div class="line"></div>
+    <ul id="gnb">
+      <li><a href="projects/projects.html">projects</a></li>
+      <li><a href="about/about.html">about</a></li>
+      <li><a href="contact/contact.html">contact</a></li>
+      <li><img src="common/images/circle.png" alt="bgColor"></li>
+    </ul>
+  </header>
+
+  <!-- main -->
+  <main>
+    <!-- intro -->
+    <div class="intro">
+      <div class="first_line">
+        <p>Hello.<span class="symbol1"><img src="images/symbol01.png" alt="symbol"></span>My name is</p>
+      </div>
+      <div class="second_line">
+        <p>OH SEUL BIN</p>
+        <span><img src="images/mini.jpg" alt="mini picture"></span>
+        <p id="and">and I am</p>
+      </div>
+      <div class="third_line">
+        <p>a sensible <span>PUBLISHER</span></p>
+      </div>
+      <div class="fourth_line">
+        <p>& UIUX<span class="symbol1"><img src="images/symbol02.png" alt="symbol"></span>DESIGNER</p>
+      </div>
+    </div>
+
+    <!-- project -->
+    <div data-aos="fade-right" class="box1">
+      <a href="colormemo/colormemo.html">
+        <img src="images/project1.png" alt="project">
+        <div class="contents">
+          <section class="txt_box">
+            <h2>UIUX Design</h2>
+            <p>REDESIGN FOR COLOR MEMO</p>
+            <p class="year">2021</p>
+          </section>
+        </div>
+      </a>
+    </div>
+    <div data-aos="fade-left" class="box2">
+      <a href="acuvue/index.html">
+        <div class="contents">
+          <section class="txt_box">
+            <h2>Web<br>Design</h2>
+            <p>REDESIGN FOR ACUVUE</p>
+            <p class="year">2021</p>
+          </section>
+        </div>
+        <img src="images/project3.png" alt="project">
+      </a>
+    </div>
+    <div data-aos="fade-right" class="box3">
+      <a href="australia/AUSTRALIA.jpg">
+        <img src="images/project2.png" alt="project">
+        <div class="contents">
+          <section class="txt_box">
+            <h2>Web<br>Design</h2>
+            <p>REDESIGN FOR TOURISM AUSTRALIA</p>
+            <p class="year">2021</p>
+          </section>
+        </div>
+      </a>
+    </div>
+
+    <!-- all projects -->
+    <div class="txt ezkorry-roller">
+      <a href="projects/projects.html"><strong class="san">ALL</strong> <strong class="serif">Projects</strong></a>
+    </div>
+  </main>
+
+  <!-- footer -->
+  <footer>&copy; PORTFOLIO 2021. ALL RIGHTS RESERVED. SITE BY OH SEUL BIN.</footer>
+
+  <script>
+    AOS.init();
+  </script>
+</body>
+</html>

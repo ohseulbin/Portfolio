@@ -1,0 +1,32 @@
+@font-face {
+    font-family: 'PTMono';
+    src: url(../font/PTMono-Regular.ttf) format('truetype');
+    font-weight: normal;
+}
+@font-face {
+    font-family: 'PTMono';
+    src: url(../font/pt-mono.bold.ttf) format('truetype');
+    font-weight: bold;
+}
+@font-face {
+    font-family: 'Times';
+    src: url(../font/times-it.ttf) format('truetype');
+}
+@font-face {
+    font-family: 'Cafe24Ohsquare';
+    src: url(../font/Cafe24Ohsquare.ttf) format('truetype');
+    font-weight: bold;
+}
+@font-face {
+    font-family: 'Cafe24Ohsquare';
+    src: url(../font/Cafe24Ohsquareair.ttf) format('truetype');
+    font-weight: normal;
+}
+@font-face {
+    font-family: 'Sequel100Black';
+    src: url(../font/Sequel100Black-95.ttf) format('truetype');
+}
+@font-face {
+    font-family: 'AppleSDGothicNeo';
+    src: url(../font/AppleSDGothicNeoM.ttf) format('truetype');
+}
